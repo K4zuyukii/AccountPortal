@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Account Portal</title>
+    <link rel="stylesheet" href="~/css/theme.css" asp-append-version="true" />
+</head>
+<body>
+    <div class="backdrop">
+        <div class="circles" aria-hidden="true">
+            <span class="circle c1"></span>
+            <span class="circle c2"></span>
+            <span class="circle c3"></span>
+            <span class="circle c4"></span>
+            <span class="circle c5"></span>
+        </div>
+        <main class="page">
+            @RenderBody()
+        </main>
+    </div>
+</body>
+</html>
